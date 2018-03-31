@@ -63,6 +63,7 @@ namespace Ecommerce.Api.Controllers
 
         private long LongRandom()
         {
+            //sample comment local branch
             byte[] buf = new byte[8];
             rnd.NextBytes(buf);
             long longRand = BitConverter.ToInt64(buf, 0);

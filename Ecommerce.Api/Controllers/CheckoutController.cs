@@ -63,7 +63,6 @@ namespace Ecommerce.Api.Controllers
 
         private long LongRandom()
         {
-            //sample comment local branch
             //sample branch
             //sample branch master
             byte[] buf = new byte[8];
